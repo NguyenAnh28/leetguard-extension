@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "My First Web Blocker",
+  "version": "0.1.0",
+  "description": "Learning to build extensions",
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
