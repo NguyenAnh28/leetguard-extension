@@ -5,9 +5,15 @@
   "description": "Learning to build extensions",
 
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js" 
   },
   "permissions": [
     "tabs"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["blocked.html"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }
